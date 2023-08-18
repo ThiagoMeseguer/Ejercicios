@@ -1,0 +1,32 @@
+Paradigma programacion
+    programacion orientada a objetos / POO / OOP
+    -Herencia
+    -Abstraccion 
+    -Encapsulamiento
+    -Poliformismo
+
+    un objeto tiene atributos/caracteristica(Nommbre,apellido,edad) y
+    metodos/funciones
+
+    Persona(Objeto): Dni, Nommbre, Apellido  --- Atributos Generales
+    Jugador: Pierna habil, Posicion, Goles, Amarillas
+    Kinesiologo: Matricula, antiguedad, experiencia, historial
+
+    Jugador -> Persona --- Herencia 
+    Kinesiologo -> Persona 
+
+    Metodos:
+    Persona: caminar(), Correr()
+    Jugador: patear()
+    tribunas: getCapacidad()
+
+    Objeto -> Clase
+
+        public - Publica
+        private - Solomente accede en la clase
+        protested - 
+
+    Cada archivo representa una clase jugador.php - persona.php
+    Main.php (index.php) Archivo que se abre - Archvo Raiz
+
+    
