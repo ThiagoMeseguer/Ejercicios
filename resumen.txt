@@ -28,7 +28,53 @@ Paradigma programacion
 
     Cada archivo representa una clase jugador.php - persona.php
     Main.php (index.php) Archivo que se abre - Archvo Raiz
+    --------------------------------------------------------------------------------------------
+    Herencia: class Argentino EXTENDS Persona { --- Hereda todos los atributos de Persona
+        public $provincia, $ciudad; -- Atributos especificos
+        public function NombreFuncion() {
+            parent::NombreFuncion --- Para extender una funcion que esta en Objeto raiz o padre (Persona)
+            echo 'Mensaje' -- Ejemplo
+        }
+    }
+    Herencia multiple: class nombreClase EXTENDS , { 
+        -----
+    }
+    --------------------------------------------------------------------------------------------
 
-Traits 
+    Encapsulamiento:
+        Publica : Acceso total desde cualquier clase
+        Protected : Se puede acceder desde la propia clase o de la clase heredada
+        Privada : Solo se puede acceder desde la propia clase
+
+    --------------------------------------------------------------------------------------------
+
+    Interfaces: Son plantillas para definir que metodos tienen todas las clases // Pautas sobre como construir cada clase // Estructura de la clase
+    *Obliga a que cada metodo declarado esté en cada clase*
+    ** Solo metodos publicos ** 
+    interface NombreInterfaz {
+        Ej: public function setVariables();
+    }
+        class NombreFuncion implements NombreInterfaz
+
+    --------------------------------------------------------------------------------------------
+
+    Abstraccion: clase abstractas son como las interfaces // Cada clase que se extienda tiene que tener el metodo declarado
+    ** Solo puede ser extendida de otra clase **
+    Uso:
+    class claseConcreta EXTENDS claseAbstracta {
+        Poner los metodos de la clase Abstracta sino sale error
+    }
+    Crear clase abstracta:
+    abstract class nombreClase {
+        Ej: abstract protected function getValor();
+        Ej: public function
+    }
+    
+    --------------------------------------------------------------------------------------------
+    
+    Poliformismo: Se sobreescribe ese metodo en cada clase para que haga cosas distintas // un metodo que devuelve diferentes valores en cada clase
+    ** Se usa con la herencia ** 
+
+    --------------------------------------------------------------------------------------------
 
     
