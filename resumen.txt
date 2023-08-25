@@ -29,4 +29,6 @@ Paradigma programacion
     Cada archivo representa una clase jugador.php - persona.php
     Main.php (index.php) Archivo que se abre - Archvo Raiz
 
+Traits 
+
     
