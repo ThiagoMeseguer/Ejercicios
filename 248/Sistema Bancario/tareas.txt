@@ -1,0 +1,8 @@
+1. Crear al menos dos instancia de la clase persona y dos instancias CuentaBancaria 
+
+2. Crear una instancia de la clase banco y agregar las cuentas bancarias a la lista del banco
+
+3. Realizar las operaciones
+    a. deposita las cantidades en la cuentas bancarias
+    b. Realiza retiros de diferenctes montos de la cuenta bancaria verificando que haya saldo disponible
+    c. Busca una cuenta bancaria por el titular utilizando el metodo buscar cuenta por titular 
