@@ -1,0 +1,17 @@
+1. Crear al menos dos instancia de la clase persona y dos instancias CuentaBancaria 
+
+2. Crear una instancia de la clase banco y agregar las cuentas bancarias a la lista del banco
+
+3. Realizar las operaciones
+    a. deposita las cantidades en la cuentas bancarias
+    b. Realiza retiros de diferenctes montos de la cuenta bancaria verificando que haya saldo disponible
+    c. Busca una cuenta bancaria por el titular utilizando el metodo buscar cuenta por titular
+
+4. Crear funcion transferir (monto,cuentaOrigen,cuentaDestino) en la clase cuenta bancaria q permita
+transferir un monto de una cuenta a otra.
+
+5. Añade una verificacion en la clase persona para que la edad sea un numero positivomayor a cero 
+si la edad no cumple ese requisito asignar un valor predeterminado.
+
+6. Modificar el metodo retirar (Cuenta bancaria) para permitir retiros incluso si no hay fondos
+pero con un limite de sobregiro, definir una constante limiteSobregiro

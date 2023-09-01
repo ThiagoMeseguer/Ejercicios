@@ -1,0 +1,11 @@
+Sistema bancario
+Clases: -Persona Nombre,Apellido,Edad,Dni
+        -Banco   Nombre, Direccion, listacuenta (Array)
+                Metodo: Nombre y direccion (constructor)
+                       AgregarCuenta ($cuenta) ->
+                       BuscarCuentaPorTitular(Nombre,apellido)
+                           Devuelve la cuenta bancaria asociada(Funcion con parametros) 
+        -CuentaBancaria NumeroCuenta, titular (instancia de persona), saldo
+                Metodo: Constructor para inicializar el numero de cuenta, titular y saldo
+                        Depositar ($cantidad)
+                        Retirar ($cantidad) validar saldo
